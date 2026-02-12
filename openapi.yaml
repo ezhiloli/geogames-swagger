@@ -1,13 +1,10 @@
-openapi: 3.0.0
+openapi: "3.0.0"
 info:
-  title: Country Info API
-  version: 1.0.0
-servers:
-  - url: https://ezhiloli.github.io/geogames-swagger
+  title: Country API
+  version: "1.0.0"
 paths:
   /contryinfo.json:
     get:
-      summary: Get country information
       responses:
         '200':
-          description: Successful response
+          description: "OK"
